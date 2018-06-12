@@ -1,0 +1,23 @@
+.page-header {
+    text-align: center;
+    background-color: #8B0000;
+    color: white;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+#panel-heading {
+    background-color: #8B0000;
+    color: white;
+}
+
+.input-group {
+    width: 100%;
+}
+
+#train-destination,
+#train-name,
+#first-train-time,
+#frequency {
+    width: 100%;
+}
