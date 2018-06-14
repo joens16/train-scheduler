@@ -11,3 +11,24 @@ var config = {
   
   // Assign the reference to the database to a variable named 'database'
   var database = firebase.database();
+
+  $(document).ready(function(){
+
+    $("#submit-button").on("click", function(event){
+      event.preventDefault();
+      
+      var trainName = "";
+      var destination = "";
+      var firstTrainTime = Date;
+      var frequency = Date;
+      
+      var nextArrival = Date;
+      var minutesAway = Date;
+      
+      trainName = $("#train-name").val().trim();
+      destination = $("#train-destination").val().trim();
+      trainName = $("#first-train-time").val().trim();
+      trainName = $("#frequency").val().trim();
+      
+    })
+  })

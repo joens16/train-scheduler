@@ -1,14 +1,18 @@
+
 .page-header {
     text-align: center;
-    background-color: #8B0000;
+    background-color: #cc6600;
     color: white;
     padding: 20px;
     margin-top: 0px;
+    opacity: .8;
 }
 
-#panel-heading {
-    background-color: #8B0000;
+#panel-heading, #submit-button {
+    background-color: #cc6600;
     color: white;
+    opacity: .8;
+    
 }
 
 .input-group {
@@ -21,3 +25,11 @@
 #frequency {
     width: 100%;
 }
+
+.panel-default {
+    opacity: .92;
+}
+/* 
+#list {
+    display: inline-block;
+} */
