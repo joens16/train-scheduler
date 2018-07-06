@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Firebase Reference -->
     <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+      <!-- Added Moment JS -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
     <title>TRain scheduler</title>
 
@@ -32,26 +34,6 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-9">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" id="panel-heading">
-                                <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Current Train Schedule</div>
-                            <table class="table" id="results">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Train Name</th>
-                                        <th scope="col">Destination</th>
-                                        <th scope="col">Frequency (Min)</th>
-                                        <th scope="col">Next Arrival</th>
-                                        <th scope="col">Minutes Away</th>
-                                    </tr>
-                                </thead>
-                            </table>
-                            <div class="panel-body" id="topArticles">
-
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-lg-3">
                         <div class="panel panel-default">
@@ -92,6 +74,27 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-9">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" id="panel-heading">
+                                <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Current Train Schedule</div>
+                            <table class="table" id="results">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Train Name</th>
+                                        <th scope="col">Destination</th>
+                                        <th scope="col">Frequency (Min)</th>
+                                        <th scope="col">Next Arrival</th>
+                                        <th scope="col">Minutes Away</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <div class="panel-body" id="topArticles">
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -99,5 +102,6 @@
     </div>
 
 </body>
+<script src="assets/javascript/app.js"></script>
 
 </html>
